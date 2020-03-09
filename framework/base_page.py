@@ -44,16 +44,16 @@ class BasePage(object):
         except NameError as e:
             logger.error("Failed to quit the browser as %s" % e)
 
-    def take_window_img(self):
+    def take_window_img(self, img):
         file_path = os.path.dirname(os.path.abspath('.')) + '/screenshots/'
         riqi = time.strftime('%Y%m%d%H%M%S', time.localtime((time.time())))
-        img_name = file_path + riqi + '.png'
+        img_name = file_path + riqi + '_' + img +'.png'
         try:
             self.driver.get_screenshot_as_file(img_name)
             logger.info("Took a screenshot and saved.")
         except NameError as e:
             logger.error("Failed to take screenshot %s" % e)
-            self.take_window_img()  # 不是很明白这里为什么要self.take_window_img()
+            self.take_window_img("ScreenshotFailed")
 
     # 定位元素方法
     def find_elements(self, selector):
@@ -81,7 +81,7 @@ class BasePage(object):
                             )
             except NoSuchElementException as e:
                 logger.error("No Such Element Exception:%s" % e)
-                self.take_window_img()
+                self.take_window_img("selectoridNotFound")
 
         elif selector_by == 'n' or selector_by == 'name':  # 使用name
             element = self.driver.find_element_by_name(selector_value)
@@ -103,7 +103,7 @@ class BasePage(object):
                             )  # 用了2个括号，注意啦~！
             except NoSuchElementException as e:
                 logger.error("No Such Element Exception: %s " % e)
-                self.take_window_img()
+                self.take_window_img("xpathNotFound")
         else:
             raise NameError("Please enter a valid type of targeting element!")  # 输出错误提示
         return element
@@ -118,7 +118,7 @@ class BasePage(object):
             logger.info("Had type %s into textbox" % text)
         except NameError as e:
             logger.error("Error on type into textbox %s " % e)
-            self.take_window_img()
+            self.take_window_img("typeError")
 
     # 清除文本框
     def clear(self, selector):
@@ -129,7 +129,7 @@ class BasePage(object):
             logger.info("Clear the textbox")
         except NameError as e:
             logger.error("Error when clear the textbox %s " % e)
-            self.take_window_img()
+            self.take_window_img("ClearError")
 
     # 点击元素
     def click(self, selector):
@@ -140,7 +140,7 @@ class BasePage(object):
             logger.info("Mouse on the element and click")
         except NameError as e:
             logger.error("Error on click the element %s " % e)
-            self.take_window_img()
+            self.take_window_img("ClickError")
 
     # 文本值
     def get_text(self, selector):
@@ -151,6 +151,11 @@ class BasePage(object):
     def get_title(self):
         logger.info("Current page's title is:%s" % self.driver.title)
         return self.driver.title
+
+    # 拿到今天的日期, 格式 2020-02-29
+    # def get_date(self):
+    #     logger.info("Today is %s ", time.strftime("%Y-%m-%d", time.localtime()))
+    #     return self.get_date()
 
     @staticmethod
     def sleep(seconds):
