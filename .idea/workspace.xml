@@ -40,7 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VSPwTfcIwlPrchxmOBSzKeV33q" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -50,7 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testCases_LoginDiffAreas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +70,7 @@
   </component>
   <component name="RunManager" selected="Python.TestRunner">
     <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Insait KS" />
+      <module name="INSAIT KS Cloudweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -90,8 +90,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="INSAIT KS Cloudweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Insait KS" />
+      <module name="INSAIT KS Cloudweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -111,45 +132,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_bulk_import.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Insait KS" />
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="INSAIT KS Cloudweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../InsaitKSCloudweb/testCases" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_bulk_import.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="INSAIT KS Cloudweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../InsaitKSCloudweb/testCases/test_bulk_import.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCases/test_bulk_import.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_login_diff_areas.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Insait KS" />
+      <module name="INSAIT KS Cloudweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../InsaitKSCloudweb/testCases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../InsaitKSCloudweb/testCases/test_login_diff_areas.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCases/test_login_diff_areas.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_player_update.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Insait KS" />
+      <module name="INSAIT KS Cloudweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../InsaitKSCloudweb/testCases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../InsaitKSCloudweb/testCases/test_player_update.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCases/test_player_update.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="INSAIT KS Cloudweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="INSAIT KS Cloudweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -194,25 +258,25 @@
     </state>
     <state x="358" y="192" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1583484226668" />
     <state x="358" y="198" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.730@0.23.1280.730" timestamp="1582878040779" />
-    <state width="1259" height="292" key="GridCell.Tab.0.bottom" timestamp="1583736328445">
+    <state width="1259" height="292" key="GridCell.Tab.0.bottom" timestamp="1583745980524">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="292" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583736328445" />
+    <state width="1259" height="292" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583745980524" />
     <state width="1239" height="234" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1583220623626" />
-    <state width="1259" height="292" key="GridCell.Tab.0.center" timestamp="1583736328443">
+    <state width="1259" height="292" key="GridCell.Tab.0.center" timestamp="1583745980523">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="292" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583736328443" />
+    <state width="1259" height="292" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583745980523" />
     <state width="1239" height="234" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1583220623625" />
-    <state width="1259" height="292" key="GridCell.Tab.0.left" timestamp="1583736328442">
+    <state width="1259" height="292" key="GridCell.Tab.0.left" timestamp="1583745980521">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="292" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583736328442" />
+    <state width="1259" height="292" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583745980521" />
     <state width="1239" height="234" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1583220623625" />
-    <state width="1259" height="292" key="GridCell.Tab.0.right" timestamp="1583736328444">
+    <state width="1259" height="292" key="GridCell.Tab.0.right" timestamp="1583745980524">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="292" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583736328444" />
+    <state width="1259" height="292" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583745980524" />
     <state width="1239" height="234" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1583220623626" />
     <state width="1259" height="282" key="GridCell.Tab.1.bottom" timestamp="1583310095436">
       <screen x="0" y="0" width="1280" height="800" />
